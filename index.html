@@ -9,26 +9,23 @@
   </head>
   <body>
     <h1>This is a demo to showcase the new color-mix function in css</h1>
+    <h2>The syntax for using color-mix is typically three arguments. First being what format the mixed color should be. In these examples I use the keyword "in srgb" to return the color in srgb format, however you can use things like "in oklab" or other formats. The other two arguments are the colors that you would like to mix, and additionally you can add percentages to one, both, or neither of the colors to adjust transparency.</h2>
     <h2>Below are some examples of mixing colors using the new color-mix() function in css.</h2>
 
-    <h2>Below are some examples of mixing colors using the new color-mix() function in css.</h2>
+    <h2>Firstly, you can do simple color mixing with initial colors with something like color-mix(in srgb, blue, red).</h2>
     <div class="color-square-1">
 
     </div>
 
-    <h2>Below are some examples of mixing colors using the new color-mix() function in css.</h2>
+    <h2>You can also decide how much of each to add by adding a percentage, such as color-mix(in srgb, blue 60%, red 40%).</h2>
     <div class="color-square-2">
 
     </div>
 
-    <h2>Below are some examples of mixing colors using the new color-mix() function in css.</h2>
+    <h2>Another interesting thing that you can do is mix a color with the "color" transparent. This will essentially add as much transparency to the mixed color as you want. Here we are adding 70% transparency to blue by doing color-mix(in srgb, blue, transparent 70%).</h2>
     <div class="color-square-3">
 
     </div>
-
-    <h2>Below are some examples of mixing colors using the new color-mix() function in css.</h2>
-    <div class="color-square-4">
-
     </div>
     <script src="index.js"></script>
   </body>
