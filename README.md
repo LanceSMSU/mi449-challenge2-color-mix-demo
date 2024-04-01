@@ -1,2 +1,2 @@
 # boilerplate
-Basic HTML and CSS setup for simple web design
+Basic demo for the new color-mix css function

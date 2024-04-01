@@ -1,1 +1,32 @@
 /* Add screen styles below */
+body{
+    background:gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.color-square-1{
+    background: red;
+    width: 250px;
+    height: 250px;
+}
+
+.color-square-2{
+    background: red;
+    width: 250px;
+    height: 250px;
+}
+
+.color-square-3{
+    background: red;
+    width: 250px;
+    height: 250px;
+}
+
+.color-square-4{
+    background: red;
+    width: 250px;
+    height: 250px;
+}
